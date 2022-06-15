@@ -23,9 +23,9 @@
 	- [直达链接](./src/main/java/com/dliberty/demo/singleton/Mgr06.java)
 
 ### 2. 策略模式
-	- 策略模式也就是面向对象编程中的多态
-	- 制定统一的接口，根据不同的策略来进行实现
-	- [直达链接](./src/main/java/com/dliberty/demo/strategy/Test.java)
+- 策略模式也就是面向对象编程中的多态
+- 制定统一的接口，根据不同的策略来进行实现
+- [直达链接](./src/main/java/com/dliberty/demo/strategy/Test.java)
 ### 3. 工厂方法模式
 ### 4. 抽象方法模式
 ### 5. 门面模式
