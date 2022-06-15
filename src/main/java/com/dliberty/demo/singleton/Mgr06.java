@@ -1,7 +1,7 @@
 package com.dliberty.demo.singleton;
 
 /**
- * 枚举模式，jvm 保证单类，可以预防反序列化
+ * 枚举模式，jvm 保证单例，可以预防反序列化
  * @author v_guojt
  *
  */
