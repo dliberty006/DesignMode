@@ -29,10 +29,27 @@
 ### 3. 工厂方法模式
 ### 4. 抽象方法模式
 ### 5. 门面模式
+- 内部系统错综复杂，提供一个门面统一对外服务
+- 服务器部署时的网关，将所有的请求拦截，具体的方法转发由网关决定
 ### 6. 调停者模式
+- 内部系统错综复杂，提供一个对内的协调中间件
+- 消息队列，zookeeper等
 ### 7. 装饰器模式
 ### 8. 责任链模式
 ### 9. 观察者模式
 ### 10. 组合模式
 ### 11. 享元模式
+- 共享元对象模式
+- String 常量池，Integer 常量池，线程池等
+- [直达链接](./src/main/java/com/dliberty/demo/flyweight/Test.java)
 ### 12. 代理模式
+1. 静态代理
+	- 静态代理从逻辑上将和装饰器模式一样
+	- [直达链接](./src/main/java/com/dliberty/demo/proxy/Test.java)
+2. 动态代理
+	- jdkProxy 必须面向接口，可将动态生成的代理类进行保存反编译
+	- [直达链接](./src/main/java/com/dliberty/demo/proxy/JdkProxy.java)
+	- [动态代理类直达链接](./com/dliberty/demo/proxy/$Proxy0.class)
+	- cglib 生成一个被代理类的子类，如果被代理类是final的话则无法生成，jdkproxy可以
+	- [直达链接](./src/main/java/com/dliberty/demo/proxy/Cglib.java)
+	- jdkProxy和cglib的底层都是asm，对二进制文件进行修改
