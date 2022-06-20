@@ -11,8 +11,9 @@ public class DogDecorator extends AnimalDecorator {
 
 	public DogDecorator(Animal component) {
 		super(component);
+		// TODO Auto-generated constructor stub
 	}
-	
+
 	@Override
 	public void run() {
 		 // 在处理父类的方法时，可以在处理前后可以加一些附加功能
